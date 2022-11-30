@@ -115,7 +115,7 @@
                 </namespace>
             </tagsDecl>
             <refsDecl><!-- Specifica come i riferimenti canonici sono stati costruiti per questo testo -->
-                <p>Ogni attributo <att>xml:id</att> presente all'interno di un elemento <gi>persName</gi> può essere puntato attraverso gli attributi <att>ref</att> e <att>target</att> presenti negli altri elementi</p>
+                <p>Ogni attributo <att>xml:id</att> presente all'interno di un elemento <gi>persName</gi> o <gi>placeName</gi> può essere puntato attraverso l'attributo <att>ref</att> presente negli altri omonimi elementi</p>
             </refsDecl>
         </encodingDesc>
         <profileDesc><!-- Fornisce una descrizione dettagliata degli aspetti non bibliografici del testo, come i linguaggi e i sottolinguaggi utilizzati, la situazione in cui è stato prodotto, i partecipanti e l'ambientazione della sua produzione -->
