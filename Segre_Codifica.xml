@@ -89,7 +89,7 @@
                     <p>Gli errori presenti sono stati opportunamente marcati dall'elemento <gi>sic</gi> e la corrispondente forma corretta è stata inserita di seguito all'interno dell'elemento <gi>corr</gi></p>
                 </correction>
                 <normalization>
-                    <p>Le parole in dialetto sono state opportunamente marcate dall'eleemnto <gi>orig</gi> e la corrispondente forma in italiano standard è stat inserita di seguito all'interno dell'elemento <gi>reg</gi></p>
+                    <p>Le parole in dialetto sono state opportunamente marcate dall'elemento <gi>orig</gi> e la corrispondente forma in italiano standard è stat inserita di seguito all'interno dell'elemento <gi>reg</gi></p>
                 </normalization>
                 <punctuation>
                     <p>La punteggiatura è stata aggiunta nel corso della trascrizione e della codifica del testo stesso senza essere marcata dall'elemento <gi>pc</gi></p>
