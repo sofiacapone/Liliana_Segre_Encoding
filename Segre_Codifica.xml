@@ -21,7 +21,7 @@
                 </respStmt>
             </titleStmt>
             <editionStmt> <!-- Raggruppa le informazioni relative a un'edizione del testo -->
-                <edition>Edizione digitale <date notBefore="2022-10" notAfter="2023-01">ottobre 2022 - gennaio 2023</date></edition>
+                <edition>Edizione digitale <date notBefore="2022-10" notAfter="2022-12">ottobre 2022 - dicembre 2022</date></edition>
                 <respStmt>
                     <resp>Trascrizione e codifica a cura di:</resp>
                     <persName ref="#SC">Sofia Capone</persName>
