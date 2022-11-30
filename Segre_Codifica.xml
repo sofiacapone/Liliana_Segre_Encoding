@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc> <!-- Contiene la descrizione bibliografica completa del file elettronico -->
             <titleStmt> <!-- Raggruppa le informazioni relative al titolo dell'opera e ai responsibili del suo contenuto-->
-                <title>Intervista inedita a Liliana Segre - Edizione digitale</title> <!-- Contiene il titolo dato al lavoro elettronico -->
+                <title>Intervista a Liliana Segre - Edizione digitale</title> <!-- Contiene il titolo dato al lavoro elettronico -->
                 <author ref="#LS">Liliana Segre</author>
                 <respStmt>
                     <resp>Intervista realizzata da:</resp>
