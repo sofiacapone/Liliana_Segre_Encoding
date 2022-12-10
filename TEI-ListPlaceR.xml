@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+
+<teiHeader>
+
+    <fileDesc>
+
+        <titleStmt>
+
+            <title>
+            </title>
+
+        </titleStmt>
+
+        <publicationStmt>
+
+            <p>
+            </p>
+
+        </publicationStmt>
+
+        <sourceDesc>
+
+                 <listPlace>
+
+                    <head>Lista luoghi</head>
+
+                    <!-- Stati -->
+                    <place xml:id="Egitto">
+                        <placeName>Egitto</placeName>
+                    </place>
+
+
+                    <place xml:id="Eritrea">
+                        <placeName>Eritrea</placeName>
+                    </place>
+
+
+                    <place xml:id="Italia">
+                        <placeName>Italia</placeName>
+                    </place>
+
+
+                    <place xml:id="Libia">
+                        <placeName>Libia</placeName>
+                    </place>
+
+
+                    <place xml:id="Sudan">
+                        <placeName>Sudan</placeName>
+                    </place>
+                    
+
+                <!-- paesi -->
+                    <place xml:id="Santo_Stefano_Magra">
+                        <placeName>Santo Stefano di Magra</placeName>
+                        <location>
+                            <region>Liguria</region>
+                            <country>Italia</country>
+                        </location>
+                    </place>
+
+                </listPlace>
+
+
+        </sourceDesc>
+
+    </fileDesc>
+
+</teiHeader>
+
+<text>
+    <body>
+        <p></p>
+    </body>
+</text>
+
+</TEI>

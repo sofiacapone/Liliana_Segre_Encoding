@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+
+<teiHeader>
+
+    <fileDesc>
+
+        <titleStmt>
+
+            <title>
+            </title>
+
+        </titleStmt>
+
+        <publicationStmt>
+
+            <p>
+            </p>
+
+        </publicationStmt>
+
+        <sourceDesc>
+
+            <listPerson>
+
+                <head>Lista persone</head>
+
+                <personGrp xml:id="BelliPaci">
+                    <persName xml:id="AlBP">
+                        <forename>Alberto</forename>
+                        <surname type="complex">Belli Paci</surname>
+                    </persName>
+                    <sex>M</sex>
+
+                    <persName xml:id="LBP">
+                        <forename>Luciano</forename>
+                        <surname type="complex">Belli Paci</surname>
+                    </persName>
+                    <sex>M</sex>
+
+                    <persName xml:id="FBP">
+                        <forename>Federica</forename>
+                        <surname type="complex">Belli Paci</surname>
+                    </persName>
+                    <sex>F</sex>                    
+                </personGrp>
+
+                <person xml:id="ABP">
+                    <persName>
+                        <forename>Alfredo</forename>
+                        <surname type="complex">Belli Paci</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <placeName>
+                            <settlement>Milano</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="2007">2007</date>
+                    </death>
+                </person>
+
+
+                <person xml:id="BB">
+                    <persName>
+                        <forename>Bruno</forename>
+                        <surname>Bettelheim</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1903-08-28">28 agosto 1903</date>
+                        <placeName>
+                            <settlement>Vienna</settlement>
+                            <country>Austria</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1990-03-13">13 marzo 1990</date>
+                        <placeName>
+                            <settlement>Silver Spring</settlement>
+                            <country>USA</country>
+                        </placeName>
+                    </death>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Bruno_Bettelheim"/>
+                </person>
+
+
+                <person xml:id="EB">
+                    <persName>
+                        <forename>Edith</forename>
+                        <surname type="birth">Steinschreiber</surname>
+                        <surname type="pseudo">Bruck</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1931-05-03">3 maggio 1931</date>
+                        <placeName>
+                            <settlement>Tiszabercel</settlement>
+                            <country>Ungheria</country>
+                        </placeName>
+                    </birth>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Edith_Bruck"/>
+                </person>
+
+
+                <person xml:id="DC">
+                    <persName>
+                        <forename type="birth">Domenico</forename>
+                        <forename type="given">Mimmo</forename>
+                        <surname>Calopresti</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1955-01-04">4 gennaio 1955</date>
+                            <placeName>
+                                <settlement>Polistena</settlement>
+                                <country>Italia</country>
+                            </placeName>
+                    </birth>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Mimmo_Calopresti"/>
+                </person>
+
+
+                <person xml:id="GC">
+                    <persName>
+                        <forename>Graziella</forename>
+                        <surname>Coen</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1929-10-04">4 ottobre 1929</date>
+                        <placeName>
+                            <settlement>Roma</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="2004">2004</date>
+                        <placeName>
+                            <country>Sud Africa</country>
+                        </placeName>
+                    </death>
+                    <ptr type="furtherInfo" target="http://digital-library.cdec.it/cdec-web/persone/detail/person-1704/coen-graziella.html?persone=%22Coen%2C+Graziella%22"/>
+                </person>
+
+
+                <person xml:id="GD">
+                    <persName>
+                        <forename>Giuliana</forename>
+                        <surname>Donati</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1919">1919</date>
+                    </birth>
+                    <death>
+                        <date when="1996-11-24">24 novembre 1996</date>
+                    </death>
+                    <ptr type="furtherInfo" target="http://digital-library.cdec.it/cdec-web/persone/detail/person-it-cdec-eaccpf0001-016947/donati-giuliana.html?persone=%22Donati%2C+Giuliana%22"/>
+                </person>
+
+
+                <person xml:id="NF">
+                    <persName>
+                        <forename>Nedo</forename>
+                        <surname>Fiano</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1925-04-22">22 aprile 1925</date>
+                        <placeName>
+                            <settlement>Firenze</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="2020-12-19">19 dicembre 2020</date>
+                        <placeName>
+                            <settlement>Milano</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Nedo_Fiano"/>
+                </person>
+
+
+                <personGrp xml:id="Foligno">                    
+                    <persName xml:id="AF">
+                        <forename>Alfredo</forename>
+                        <surname>Foligno</surname>
+                    </persName>
+                    <birth>
+                        <date when="1873-03-08">8 marzo 1873</date>
+                        <placeName>
+                            <settlement>Ancona</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+
+                     <persName xml:id="BL">
+                        <forename>Bianca</forename>
+                        <surname>Levi</surname>
+                    </persName>
+                    <birth>
+                        <date when="1879-01-29">29 gennaio 1879</date>
+                        <placeName>
+                            <settlement>Senigallia</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1976-08-13">13 agosto 1976</date>
+                        <placeName>
+                            <settlement>Milano</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                </personGrp>
+
+
+                <person xml:id="DF">
+                    <persName>
+                        <forename>Dario</forename>
+                        <surname>Foligno</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1905">24 agosto 1902</date>
+                        <placeName>
+                            <settlement>Pergola</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1975">1975</date>
+                    </death>
+                    <note>Catturato dai nazisti assieme alla moglie e ai figli durante i rastrellamenti del 1943, venne liberato e accolto in Vaticano</note>
+                </person>
+
+
+                <person xml:id="LF">
+                    <persName>
+                        <forename>Lucia</forename>
+                        <surname>Foligno</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                    <date when="1905">1905</date>
+                        <placeName>
+                            <settlement>Pergola</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1931-08-31">31 agosto 1931</date>
+                    </death>
+                </person>
+
+
+                <person xml:id="MTF">
+                    <persName>
+                        <forename type="first">Maria</forename>
+                        <forename type="middle">Teresa</forename>
+                        <surname>Foligno</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1945-08">agosto 1945</date>
+                    </birth>
+                </person>
+
+
+                <person xml:id="EF">
+                    <persName>
+                        <forename>Enrica</forename>
+                        <surname>Fumagalli</surname>
+                    </persName>
+                    <sex>F</sex>
+                </person>
+
+
+                <person xml:id="GB">
+                    <persName>
+                        <forename type="given">Agata</forename>
+                        <forename full="abb">Goti</forename>
+                        <surname type="birth">Herskovitz</surname>
+                        <surname type="married">Bauer</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1924-07-29">29 luglio 1924</date>
+                            <placeName>
+                                <settlement>Berehove</settlement>
+                                <country>Ucraina</country>
+                            </placeName>
+                    </birth>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Goti_Herskovits_Bauer"/>
+                </person>
+
+
+                <person xml:id="MK">
+                    <persName>
+                        <forename>Marika</forename>
+                        <surname>Kaufmann</surname>
+                    </persName>
+                    <sex>F</sex>
+                </person>
+
+
+                <person xml:id="MMK">
+                    <persName>
+                        <forename type="birth">Rajmund</forename>
+                        <forename type="religious">Massimiliano Maria</forename>
+                        <surname>Kolbe</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1894-01-08">8 gennaio 1894</date>
+                        <placeName>
+                            <settlement>Zduńska Wola</settlement>
+                            <country>Polonia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1941-08-14">14 agosto 1941</date>
+                        <placeName>
+                            <settlement>Auschwitz</settlement>
+                            <country>Polonia</country>
+                        </placeName>
+                    </death>
+                    <note>Padre Massiliano Maria Kolbe è stato fatto santo nel 1982 da Papa Giovanni Paolo II, per essersi offerto volontario al posto di un altro condannato per andare nella camera a gas</note>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Massimiliano_Maria_Kolbe"/>
+                </person>
+
+
+                <person xml:id="PL">
+                    <persName>
+                        <forename>Primo</forename>
+                        <surname>Levi</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1919-07-31">31 luglio 1919</date>
+                        <placeName>
+                            <settlement>Torino</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1987-04-11">11 aprile 1987</date>
+                        <placeName>
+                            <settlement>Torino</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Primo_Levi"/>
+                </person>
+
+
+                <person xml:id="IM">
+                    <persName>
+                        <forename>Ida</forename>
+                        <surname>Marcheria</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1929-08-03">3 agosto 1929</date>
+                        <placeName>
+                            <settlement>Trieste</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="2011-10-03">3 ottobre 2011</date>
+                        <placeName>
+                            <settlement>Roma</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Ida_Marcheria"/>
+                </person>
+
+
+                <person xml:id="SM">
+                    <persName>
+                        <forename>Stella</forename>
+                        <surname>Marcheria</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1930-12-14">14 dicembre 1930</date>
+                        <placeName>
+                            <settlement>Trieste</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1975">1975</date>
+                    </death>
+                </person>
+
+
+                <person xml:id="LM">
+                    <persName>
+                        <forename>Liana</forename>
+                        <surname>Millu</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1914-12-21">21 dicembre 1914</date>
+                        <placeName>
+                            <settlement>Pisa</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="2005-02-06">6 febbraio 2005</date>
+                        <placeName>
+                            <settlement>Genova</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Liana_Millu"/>
+                </person>
+
+
+                <person xml:id="LN">
+                    <persName>
+                        <forename>Luciana</forename>
+                        <surname type="birth">Nissim</surname>
+                        <surname type="married">Momigliano</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1919-10-20">20 ottobre 1919</date>
+                        <placeName>
+                            <settlement>Torino</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1998-12-01">1 dicembre 1998</date>
+                        <placeName>
+                            <settlement>Milano</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Luciana_Nissim_Momigliano"/>
+                </person>
+
+
+                <person xml:id="PioXII">
+                    <persName>
+                        <forename type="birth">Eugenio Maria Giuseppe Giovanni</forename>
+                        <surname>Pacelli</surname>
+                        <roleName>Papa</roleName>
+                        <forename type="religious">Pio XII</forename>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1876-03-02">2 marzo 1876</date>
+                        <placeName>
+                            <settlement>Roma</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1958-10-09">9 ottobre 1958</date>
+                        <placeName>
+                            <settlement>Castel Gandolfo</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Papa_Pio_XII"/>
+                </person>
+
+
+                <person xml:id="MP">
+                    <persName>
+                        <forename>Marcello</forename>
+                        <surname>Pezzetti</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1952-07-25">25 luglio 1953</date>
+                        <placeName>
+                            <settlement>Lodi</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Marcello_Pezzetti"/>
+                </person>
+
+
+                 <personGrp xml:id="Segre">                    
+                    <persName xml:id="GS">
+                        <forename>Giuseppe</forename>
+                        <surname>Segre</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1873-03-30">30 marzo 1873</date>
+                        <placeName>
+                            <settlement>Milano</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1944-06-30">30 giugno 1944</date>
+                        <placeName>
+                            <settlement>Auschwitz</settlement>
+                            <country>Polonia</country>
+                        </placeName>
+                    </death>
+                    
+                    <persName xml:id="OL">
+                        <forename>Olga</forename>
+                        <surname>Lovvy</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1878-11-11">11 novembre 1878</date>
+                        <placeName>
+                            <settlement>Torino</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1944-06-30">30 giugno 1944</date>
+                        <placeName>
+                            <settlement>Auschwitz</settlement>
+                            <country>Polonia</country>
+                        </placeName>
+                    </death>
+                 </personGrp>
+
+
+                <person xml:id="AlS">
+                    <persName>
+                        <forename>Alberto</forename>
+                        <surname>Segre</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1899-12-12">12 dicembre 1899</date>
+                        <placeName>
+                            <settlement>Milano</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1944-04-27">27 aprile 1944</date>
+                        <placeName>
+                            <settlement>Auschwitz</settlement>
+                            <country>Polonia</country>
+                        </placeName>
+                    </death>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Alberto_Segre"/>
+                </person>
+
+
+                <person xml:id="AmS">
+                    <persName>
+                        <forename>Amedeo</forename>
+                        <surname>Segre</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1898-06-16">16 giugno 1899</date>
+                        <placeName>
+                            <settlement>Milano</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <ptr type="furtherInfo" target="http://digital-library.cdec.it/cdec-web/persone/detail/person-cdec201-2458/segre-amedeo.html"/>
+                </person>
+
+
+                <person xml:id="Spinosa">
+                    <persName>
+                        <forename>Antonio</forename>
+                        <surname>Spinosa</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1923-06-18">18 giugno 1923</date>
+                        <placeName>
+                            <settlement>Ceprano</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="2009-01-31">31 gennaio 2009</date>
+                        <placeName>
+                            <settlement>Roma</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Antonio_Spinosa"/>
+                </person>
+
+
+                <person xml:id="GT">
+                    <persName>
+                        <forename>Giuliana</forename>
+                        <surname type="birth">Fiorentino</surname>
+                        <surname type="married">Tedeschi</surname>
+                    </persName>
+                    <sex>F</sex>
+                    <birth>
+                        <date when="1914-04-09">9 aprile 1914</date>
+                        <placeName>
+                            <settlement>Milano</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="2010-06-28">28 giugno 2010</date>
+                        <placeName>
+                            <settlement>Torino</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Giuliana_Fiorentino_Tedeschi"/>
+                </person>
+
+
+                <person xml:id="ET">
+                    <persName>
+                        <forename>Elisa</forename>
+                        <surname>Tola</surname>
+                    </persName>
+                    <sex>F</sex>
+                </person>
+                <person xml:id="SV">
+                    <persName>
+                        <forename>Shlomo</forename>
+                        <surname>Venezia</surname>
+                    </persName>
+                    <sex>M</sex>
+                    <birth>
+                        <date when="1923-12-29">29 dicembre 1923</date>
+                        <placeName>
+                            <settlement>Salonicco</settlement>
+                            <country>Grecia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="2012-10-01">1 ottobre 2012</date>
+                        <placeName>
+                            <settlement>Roma</settlement>
+                            <country>Italia</country>
+                        </placeName>
+                    </death>
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Shlomo_Venezia"/>
+                </person>
+
+                
+                <!-- Persona incerta -->
+                <person xml:id="MG">
+                    <note>Liliana Segre nomina una certa Maria Griesenthal, una Aufseherin, specificando, tuttavia, di non ricodare bene il nome e il cognome. Sotto questo nominativo, infatti, non compare alcuna Aufseherin, 
+                    ma la senatrice avrebbe forse potuto e voluto riferisi a Maria Mandl, assegnata al campo di Auschwitz II (Birkenau) dal 7 ottobre 1942 fino al novembre del 1944 (Liliana Segre sarebbe entrata in quello
+                    stesso campo il 30 gennaio 1944). Maria Mandl fu poi processata nel primo processo di Auschwitz (Cracovia, novembre 1947) e condannata a morte per impiccagione. Di seguito vengono riportati i suoi dati 
+                    anagrafici.</note>
+                    <persName>
+                        <forename>Maria</forename>
+                        <surname>Mandl</surname>
+                        <surname type="alternative">Mandel</surname>
+                    </persName>
+                    <birth>
+                        <date when="1912-01-10">10 gennaio 1912</date>
+                        <placeName>
+                            <settlement>Münzkirchen</settlement>
+                            <country>Austria</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1948-01-24">24 gennaio 1948</date>
+                        <placeName>
+                            <settlement>Cracovia</settlement>
+                            <country>Polonia</country>
+                        </placeName>
+                    </death> 
+                    <ptr type="furtherInfo" target="https://it.wikipedia.org/wiki/Maria_Mandl"/>                       
+                </person>
+
+            </listPerson>
+
+            <!-- Relazioni -->
+            <listRelation>
+
+                <relation name="father" active="#Als" passive="Segre_Codifica_1.xml#LS"/>
+
+                <relation name="parents" active="#Segre" passive="#AlS #AmS"/>
+
+                <relation name="mother" active="#LF" passive="Segre_Codifica_2006.xml#LS"/>
+
+                <relation name="parents" active="#Foligno" passive="#LF"/>
+
+                <relation name="spouse" mutual="#AlS #LF"/>
+
+                <relation name="brother" mutual="#AlS #AmS"/>
+
+                <relation name="spouse" mutual="#AmS #EF"/>
+
+                <relation name="spouse" mutual="Segre_Codifica_1.xml#LS #ABP"/>                
+                
+                <relation name="spouse" mutual="#SV #MK"/>
+                
+                <relation name="spouse" mutual="#DF #ET"/>
+                
+                <relation name="uncle" active="#DF" passive="Segre_Codifica_1.xml#LS"/>
+            
+                <relation name="aunt" active="#ET" passive="Segre_Codifica_1.xml##LS"/>
+                
+                <relation name="cousin" mutual="Segre_Codifica_1.xml#LS #MTF"/>
+                
+                <relation name="sister" mutual="#IM #SM"/>
+
+            </listRelation>
+
+        </sourceDesc>
+
+    </fileDesc>
+
+</teiHeader>
+
+<text>
+    <body>
+        <p></p>
+    </body>
+</text>
+
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+
+<teiHeader>
+
+    <fileDesc>
+
+        <titleStmt>
+
+            <title>
+            </title>
+
+        </titleStmt>
+
+        <publicationStmt>
+
+            <p>
+            </p>
+
+        </publicationStmt>
+
+        <sourceDesc>
+
+            <listBibl>
+
+                <head>Verbale</head>
+
+                    <bibl xml:id="verbale">
+
+                        <title>Verbale delle dichiarazioni rese nel colloquio personale</title>
+                        <author role="authority">Commissione territoriale per il riconoscimento della protezione internazionale di Torino, sezione Genova</author>
+                        <date when="2018"><gap reason="censored"/> 2018</date>
+                        <placeName>Genova</placeName>
+                        
+                    </bibl>
+                
+                </listBibl>
+
+        </sourceDesc>
+
+    </fileDesc>
+
+</teiHeader>
+
+<text>
+    <body>
+        <p></p>
+    </body>
+</text>
+
+</TEI>

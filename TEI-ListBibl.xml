@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+
+<teiHeader>
+
+    <fileDesc>
+
+        <titleStmt>
+
+            <title>
+            </title>
+
+        </titleStmt>
+
+        <publicationStmt>
+
+            <p>
+            </p>
+
+        </publicationStmt>
+
+        <sourceDesc>
+
+                <listBibl>
+
+                    <head>Lista opere letterarie citate</head>
+
+                    <bibl xml:id="Promessi_Sposi">
+                        <title>I Promessi Sposi</title>
+                        <author>Alessandro Manzoni</author>
+                    </bibl>
+
+                    <bibl xml:id="Gattopardo">
+                        <title>Il Gattopardo</title>
+                        <author>Giuseppe Tomasi di Lampedusa</author>
+                        <publisher>Feltrinelli</publisher>
+                        <date when="1958">1958</date>
+                    </bibl>
+
+                    <bibl xml:id="La_Tregua">
+                        <title>La tregua</title>
+                        <author ref="#PL">Primo Levi</author>
+                        <publisher>Einaudi</publisher>
+                        <date when="1963">1963</date>
+                    </bibl>
+
+                    <bibl xml:id="Sopravvivere">
+                        <title>Sopravvivere</title>
+                        <author ref="#BB">Bruno Bettelheim</author>
+                        <publisher>Feltrinelli</publisher>
+                        <date when="1981">1981</date>
+                    </bibl>
+
+                </listBibl>
+
+               
+               
+                <list>
+
+                    <head>Lista opere cinematografiche citate</head>
+
+                    <item xml:id="Volevo_solo_vivere" n="documentary">
+                        <bibl>
+                            <title>Volevo solo vivere</title>
+                            <author ref="#DC">Domenico Calopresti</author>
+                            <publisher>01 Distribution</publisher>
+                            <date when="2006">2006</date>
+                        </bibl>
+                    </item>
+
+                    <item xml:id="Memoria" n="film">
+                        <bibl>
+                            <title>Memoria</title>
+                            <author>Ruggero Gabbai</author>
+                            <date when="1997">1997</date> 
+                        </bibl>                       
+                    </item>
+                    
+                </list>
+
+        </sourceDesc>
+    
+    </fileDesc>
+
+</teiHeader>
+
+<text>
+    <body>
+        <p></p>
+    </body>
+</text>
+
+</TEI>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+
+<teiHeader>
+
+    <fileDesc>
+
+        <titleStmt>
+
+            <title>
+            </title>
+
+        </titleStmt>
+
+        <publicationStmt>
+
+            <p>
+            </p>
+
+        </publicationStmt>
+
+        <sourceDesc>
+
+            <list>
+
+                <head>Terminologia</head>
+
+                <label>
+                    <term xml:id="campo" xml:lang="it">campo di concentramento</term>
+                </label>
+                <item>
+                    <gloss target="campo" xml:lang="it" source="https://www.treccani.it/enciclopedia/i-campi-di-concentramento_%28Dizionario-di-Storia%29/">
+                        Con l’espressione  «campo di concentramento» si indica in senso lato un’ampia tipologia di luoghi di reclusione e di internamento finalizzati alla deportazione, al lavoro coatto e/o allo sterminio di grandi masse di persone: prigionieri di guerra (militari e civili), oppositori politici, soggetti 
+                        appartenenti a specifici gruppi considerati a vario titolo  «pericolosi», «inferiori».
+                    </gloss>
+                    <p>Molti campi di concentramento sono sorti, nel tempo, anche in vari Stati dell'Africa: in Libia, in Eritrea e in Somalia. Oggi esistono i cosiddetti "campi di prigionia" che, tuttavia, assomigliano in tutto e per tutto a veri e propri campi di concentramento.</p>
+                </item>
+
+            </list>
+
+        </sourceDesc>
+
+    </fileDesc>
+
+</teiHeader>
+
+<text>
+    <body>
+        <p></p>
+    </body>
+</text>
+
+</TEI>

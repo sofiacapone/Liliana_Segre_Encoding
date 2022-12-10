@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+
+<teiHeader>
+
+    <fileDesc>
+
+        <titleStmt>
+
+            <title>
+            </title>
+
+        </titleStmt>
+
+        <publicationStmt>
+
+            <p>
+            </p>
+
+        </publicationStmt>
+
+        <sourceDesc>
+
+                <listPlace>
+
+                    <head>Lista luoghi</head>
+
+                    <!-- Stati -->
+                    <place xml:id="Cecoslovacchia">
+                        <country>Cecoslovacchia</country>
+                    </place>
+
+                    <place xml:id="Germania">
+                        <country>Germania</country>
+                    </place>
+
+                    <place xml:id="Italia">
+                        <country>Italia</country>
+                    </place>
+                    
+                    <place xml:id="Polonia">
+                        <country>Polonia</country>
+                    </place>
+
+                    <place xml:id="Svizzera">
+                        <country>Svizzera</country>
+                    </place>
+
+                    <place xml:id="Sud_Africa">
+                        <country>Sud Africa</country>
+                    </place>
+
+                    <place xml:id="Ungheria">
+                        <country>Ungheria</country>
+                    </place>
+
+                    <place xml:id="Vaticano">
+                        <country>Vaticano</country>
+                    </place>
+
+                    <!-- Regioni e aree geografiche -->
+                    <place xml:id="Brianza">
+                        <placeName type="geographic area">Brianza</placeName>
+                        <location>
+                            <country>Italia</country>
+                        </location>
+                    </place>
+
+                    <place xml:id="Liguria">
+                        <placeName type="region">Liguria</placeName>
+                        <location>
+                            <country>Italia</country>
+                        </location>
+                    </place>
+
+                    <!-- Città e paesi-->
+                    <place xml:id="Auschwitz">
+                        <placeName>Auschwitz</placeName>
+                        <location>
+                            <country>Polonia</country>
+                        </location>
+                    </place>
+
+                    <place xml:id="Birkenau">
+                        <placeName>Birkenau</placeName>
+                        <location>
+                            <country>Polonia</country>
+                        </location>
+                    </place>
+
+                    <place xml:id="Bergamo">
+                        <placeName>Bergamo</placeName>
+                        <location>
+                            <country>Italia</country>
+                        </location>
+                    </place>
+
+                    <place xml:id="Bologna">
+                        <placeName>Bologna</placeName>
+                        <location>
+                            <country>Italia</country>
+                        </location>
+                    </place>
+
+                        <place xml:id="Bolzano">
+                        <placeName>Bolzano</placeName>
+                        <location>
+                            <country>Italia</country>
+                        </location>
+                    </place>
+
+                    <place xml:id="Celle_Ligure">
+                        <placeName>Celle Ligure</placeName>
+                        <location>
+                            <country>Italia</country>
+                        </location>
+                    </place>
+
+                    <place xml:id="Luneburg">
+                        <placeName>Luneburg</placeName>
+                        <location>
+                            <country>Germania</country>
+                        </location>
+                    </place> 
+
+                    <place xml:id="Milano">
+                        <placeName>Milano</placeName>
+                        <location>
+                            <country>Italia</country>
+                        </location>
+                    </place>
+
+                    <place xml:id="Monteverde">
+                        <placeName>Monteverde</placeName>
+                        <location>
+                            <country>Italia</country>
+                        </location>
+                    </place>
+
+                    <place xml:id="Obermarschacht">
+                        <placeName>Obermarschacht</placeName>
+                        <location>
+                            <country>Germania</country>
+                        </location>
+                    </place>
+
+                        <place xml:id="Pescantina">
+                        <placeName>Pescantina</placeName>
+                        <location>
+                            <country>Italia</country>
+                        </location>
+                    </place>
+
+                    <place xml:id="Pisa">
+                        <placeName>Pisa</placeName>
+                        <location>
+                            <country>Italia</country>
+                        </location>
+                    </place>
+
+                    <place xml:id="Ravensbruck">
+                        <placeName>Ravensbruck</placeName>
+                        <location>
+                            <country>Germania</country>
+                        </location>
+                    </place>
+
+                    <place xml:id="Roma">
+                        <placeName>Roma</placeName>
+                        <location>
+                            <country>Italia</country>
+                        </location>
+                    </place>  
+
+                    <place xml:id="Verona">
+                        <placeName>Verona</placeName>
+                        <location>
+                            <country>Italia</country>
+                        </location>
+                    </place>
+
+                    <place xml:id="Venezia">
+                        <placeName>Venezia</placeName>
+                        <location>
+                            <country>Italia</country>
+                        </location>
+                    </place>
+
+                    <!-- Fiumi -->
+                    <place xml:id="Elba">
+                        <placeName type="river">Elba</placeName>
+                        <location>
+                            <country>Germania</country>
+                        </location>
+                    </place>
+
+                    <place xml:id="Brennero">
+                        <placeName type="river">Brennero</placeName>
+                        <location>
+                            <country>Italia</country>
+                        </location>
+                    </place>
+
+                    <!-- Luoghi del Lager -->
+                    <place xml:id="Judenrampe">
+                        <placeName>JudenRampe</placeName>
+                        <ptr type="furtherInfo" target="https://www.assemblea.emr.it/cittadinanza/per-approfondire/formazione-pdc/viaggio-visivo/i-campi-di-auschwitz/i-crematori-di-birkenau/il-dottor-josef-mengele/approfondimenti/la-procedura-di-selezione-sulla-judenrampe"/>
+                    </place>
+
+                    <place xml:id="revier">
+                        <placeName>Revier</placeName>
+                        <ptr type="furtherInfo" target="https://deportati.it/dizionario/r/revier/"/>
+                    </place>
+
+                    <place xml:id="Kanada">
+                        <placeName>Kanada Kommando</placeName>
+                        <ptr type="furtherInfo" target="https://en.wikipedia.org/wiki/Kanada_warehouses,_Auschwitz"/>                    
+                    </place>
+                    
+                </listPlace>
+        
+        </sourceDesc>
+
+    </fileDesc>
+
+</teiHeader>
+
+<text>
+    <body>
+        <p></p>
+    </body>
+</text>
+
+</TEI>
