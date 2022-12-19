@@ -507,10 +507,6 @@
                 <u who="#LS"><anchor xml:id="lilseg-37" synch="#TT33" n="33"/> Sì, <anchor xml:id="lilseg-38" synch="#TT34" n="33"/><pause type="medium"/> e... <del type="repetition">ed</del> erano <pause type="short"/> bravissimi </u>
             </div>
 
-            <div>
-                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Segre_Codifica_2007.txt"/>
-            </div>
-
         </body>  
     </text>
 </TEI>
