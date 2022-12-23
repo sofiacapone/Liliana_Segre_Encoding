@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml_stylesheet type="text/xsl" href="Segre_Stile.xsl"?>
-<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!DOCTYPE TEI SYSTEM "tei_all_xiinclude.dtd">
 
 <TEI xml:lang="it">
     <teiHeader>
@@ -878,11 +878,7 @@
 
     <text>
         <body>
-
-            <div>
-                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Segre_Codifica_2006.xml"/>
-            </div>
-
+            
             <div decls="#reg_1B" n="parteI">
 
                 <incident><desc>rumori vicini, il registratore viene mosso</desc></incident>

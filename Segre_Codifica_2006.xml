@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml_stylesheet type="text/xsl" href="Segre_Stile.xsl"?>
-<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!DOCTYPE TEI SYSTEM "tei_all_xiinclude.dtd">
 
 <TEI xml:lang="it">
     <teiHeader>
@@ -506,7 +506,9 @@
                 
                 <u who="#LS"><anchor xml:id="lilseg-37" synch="#TT33" n="33"/> Sì, <anchor xml:id="lilseg-38" synch="#TT34" n="33"/><pause type="medium"/> e... <del type="repetition">ed</del> erano <pause type="short"/> bravissimi </u>
             </div>
-
+            <div>
+                <xi:include href="Segre_Codifica_2007.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+            </div>
         </body>  
     </text>
 </TEI>
