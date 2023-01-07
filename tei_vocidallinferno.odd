@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>"Voci dall'Inferno": TEI setup</title>
+        <author>Sofia Capone</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Università di Pisa</publisher>
+        <availability status="free">
+          <p></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p></p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>"Voci dall'inferno": TEI setup</head>
+      <p>Questa customizzazione TEI descrive uno schema che include
+      <emph>tutti</emph> i moduli TEI P5 utilizzati in alcune codifiche
+      realizzate per il progetto "Voci dall'Inferno" e i relativi elementi. Nello specifico, 
+      tale customizzazione è stata realizzata a partire dai lavori di 
+      codifica eseguiti da <persName>Greta Bernardone</persName>, 
+      <persName>Sofia Capone</persName> ed <persName>Elvira Mercatanti</persName>.
+      Essa è un utile punto di partenza per tutti i lavori di codifica 
+      che verranno eseguiti in futuro nell'ambito del progetto "Voci dall'Inferno"
+      da altri studenti e laureandi, e può essere ulteriormente modificata
+      in base alle esigenze specifiche dei vari progetti.</p>
+      <p>L'attributo <att>n</att> di ogni <gi>moduleRef</gi> sotto riportato
+      corrisponde al numero del capitolo delle TEI <title>Guidelines</title>
+      all'interno del quale il modulo è trattato e descritto.</p>
+      <schemaSpec ident="tei_vocidallinferno" start="TEI teiCorpus">
+        <moduleRef n="01" key="tei"/>
+        <moduleRef n="02" key="header"/>
+        <!-- Gli elementi eliminati sono quelli non utilizzati in nessuna delle codifiche analizzate -->
+          <elementSpec ident="appInfo" mode="delete"/>
+          <elementSpec ident="application" mode="delete"/>
+          <elementSpec ident="authority" mode="delete"/>
+          <elementSpec ident="biblFull" mode="delete"/>
+          <elementSpec ident="cRefPattern" mode="delete"/>
+          <elementSpec ident="calendar" mode="delete"/>
+          <elementSpec ident="calendarDesc" mode="delete"/>
+          <elementSpec ident="catDesc" mode="delete"/>
+          <elementSpec ident="catRef" mode="delete"/>
+          <elementSpec ident="category" mode="delete"/>
+          <elementSpec ident="change" mode="delete"/>
+          <elementSpec ident="citeData" mode="delete"/>
+          <elementSpec ident="citeStructure" mode="delete"/>
+          <elementSpec ident="classCode" mode="delete"/>
+          <elementSpec ident="classDecl" mode="delete"/>
+          <elementSpec ident="conversion" mode="delete"/>
+          <elementSpec ident="correspAction" mode="delete"/>
+          <elementSpec ident="correspContext" mode="delete"/>
+          <elementSpec ident="correspDesc" mode="delete"/>
+          <elementSpec ident="distributor" mode="delete"/>
+          <elementSpec ident="funder" mode="delete"/>
+          <elementSpec ident="geoDecl" mode="delete"/>
+          <elementSpec ident="handNote" mode="delete"/>
+          <elementSpec ident="hyphenation" mode="delete"/>
+          <elementSpec ident="listChange" mode="delete"/>
+          <elementSpec ident="listPrefixDef" mode="delete"/>
+          <elementSpec ident="prefixDef" mode="delete"/>
+          <elementSpec ident="principal" mode="delete"/>
+          <elementSpec ident="refState" mode="delete"/>
+          <elementSpec ident="rendition" mode="delete"/>
+          <elementSpec ident="revisionDesc" mode="delete"/>
+          <elementSpec ident="samplingDecl" mode="delete"/>
+          <elementSpec ident="schemaRef" mode="delete"/>
+          <elementSpec ident="scriptNote" mode="delete"/>
+          <elementSpec ident="seriesStmt" mode="delete"/>
+          <elementSpec ident="sponsor" mode="delete"/>
+          <elementSpec ident="styleDefDecl" mode="delete"/>
+          <elementSpec ident="taxonomy" mode="delete"/>
+          <elementSpec ident="unitDecl" mode="delete"/>
+          <elementSpec ident="unitDef" mode="delete"/>
+          <elementSpec ident="xenoData" mode="delete"/>
+        <moduleRef n="03" key="core"/>
+          <elementSpec ident="add" mode="delete"/>
+          <elementSpec ident="addrLine" mode="delete"/>
+          <elementSpec ident="address" mode="delete"/>
+          <elementSpec ident="analytic" mode="delete"/>
+          <elementSpec ident="biblStruct" mode="delete"/>
+          <elementSpec ident="binaryObject" mode="delete"/>
+          <elementSpec ident="cb" mode="delete"/>
+          <elementSpec ident="citedRange" mode="delete"/>
+          <elementSpec ident="divGen" mode="delete"/>
+          <elementSpec ident="editor" mode="delete"/>
+          <elementSpec ident="ellipsis" mode="delete"/>
+          <elementSpec ident="email" mode="delete"/>
+          <elementSpec ident="gb" mode="delete"/>
+          <elementSpec ident="graphic" mode="delete"/>
+          <elementSpec ident="headItem" mode="delete"/>
+          <elementSpec ident="headLabel" mode="delete"/>
+          <elementSpec ident="hi" mode="delete"/>
+          <elementSpec ident="imprint" mode="delete"/>
+          <elementSpec ident="index" mode="delete"/>
+          <elementSpec ident="label" mode="delete"/>
+          <elementSpec ident="lb" mode="delete"/>
+          <elementSpec ident="lg" mode="delete"/>
+          <elementSpec ident="measureGrp" mode="delete"/>
+          <elementSpec ident="media" mode="delete"/>
+          <elementSpec ident="meeting" mode="delete"/>
+          <elementSpec ident="milestone" mode="delete"/>
+          <elementSpec ident="monogr" mode="delete"/>
+          <elementSpec ident="noteGrp" mode="delete"/>
+          <elementSpec ident="pb" mode="delete"/>
+          <elementSpec ident="postBox" mode="delete"/>
+          <elementSpec ident="postCode" mode="delete"/>
+          <elementSpec ident="rb" mode="delete"/>
+          <elementSpec ident="relatedItem" mode="delete"/>
+          <elementSpec ident="rt" mode="delete"/>
+          <elementSpec ident="ruby" mode="delete"/>
+          <elementSpec ident="sp" mode="delete"/>
+          <elementSpec ident="speaker" mode="delete"/>
+          <elementSpec ident="stage" mode="delete"/>
+          <elementSpec ident="street" mode="delete"/>
+          <elementSpec ident="teiCorpus" mode="delete"/>
+        <moduleRef n="04" key="textstructure"/>
+         <!-- L'aggiunta dell'elemento <xi:include> permette di collegare tra loro file XML separati ma appartenenti a uno stesso corpus -->
+          <elementSpec ident="xi:include" ns="http://www.w3.org/2001/XInclude" mode="add">
+            <desc xml:lang="en" versionDate="2014-01-12">The W3C XInclude element</desc>
+            <classes>
+              <memberOf key="model.common"/>
+              <memberOf key="model.teiHeaderPart"/>
+            </classes>
+            <content>
+              <elementRef key="fallback" minOccurs="0"/>
+            </content>
+            <attList>
+              <attDef ident="href">
+                <desc xml:lang="en" versionDate="2014-01-12">pointer to the resource being included</desc>
+                <datatype>
+                  <dataRef key="teidata.pointer"/>
+                </datatype>
+              </attDef>            
+              <attDef ident="parse" usage="opt">
+                <defaultVal>xml</defaultVal>
+                <valList type="closed">
+                  <valItem ident="xml"/>
+                  <valItem ident="text"/>
+                </valList>
+              </attDef>            
+              <attDef ident="xpointer" usage="opt">
+                <datatype>
+                  <dataRef key="teidata.text"/>
+                </datatype>
+              </attDef>            
+              <attDef ident="encoding" usage="opt">
+                <datatype>
+                  <dataRef key="teidata.text"/>
+                </datatype>
+              </attDef>            
+              <attDef ident="accept" usage="opt">
+                <datatype>
+                  <dataRef key="teidata.text"/>
+                </datatype>
+              </attDef>            
+              <attDef ident="accept-charset" usage="opt">
+                <datatype>
+                  <dataRef key="teidata.text"/>
+                </datatype>
+              </attDef>            
+              <attDef ident="accept-language" usage="opt">
+                <datatype>
+                  <dataRef key="teidata.text"/>
+                </datatype>
+              </attDef>
+            </attList>
+          </elementSpec>        
+          <elementSpec ident="fallback" ns="http://www.w3.org/2001/XInclude" mode="add">
+            <desc xml:lang="en" versionDate="2014-01-12">Wrapper for fallback elements if an XInclude fails</desc>
+            <content>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <textNode/>
+                <macroRef key="macro.anyThing"/>
+              </alternate>
+            </content>
+          </elementSpec>
+          <macroSpec ident="macro.anyThing" mode="add">
+            <content>
+              <?NameList?>
+            </content>
+          </macroSpec>
+          <!-- -->
+          <elementSpec ident="argument" mode="delete"/>
+          <elementSpec ident="back" mode="delete"/>
+          <elementSpec ident="byline" mode="delete"/>
+          <elementSpec ident="closer" mode="delete"/>
+          <elementSpec ident="dateline" mode="delete"/>
+          <elementSpec ident="div1" mode="delete"/>
+          <elementSpec ident="div2" mode="delete"/>
+          <elementSpec ident="div3" mode="delete"/>
+          <elementSpec ident="div4" mode="delete"/>
+          <elementSpec ident="div5" mode="delete"/>
+          <elementSpec ident="div6" mode="delete"/>
+          <elementSpec ident="div7" mode="delete"/>
+          <elementSpec ident="docAuthor" mode="delete"/>
+          <elementSpec ident="docDate" mode="delete"/>
+          <elementSpec ident="docEdition" mode="delete"/>
+          <elementSpec ident="docImprint" mode="delete"/>
+          <elementSpec ident="docTitle" mode="delete"/>
+          <elementSpec ident="epigraph" mode="delete"/>
+          <elementSpec ident="floatingText" mode="delete"/>
+          <elementSpec ident="front" mode="delete"/>
+          <elementSpec ident="group" mode="delete"/>
+          <elementSpec ident="imprimatur" mode="delete"/>
+          <elementSpec ident="opener" mode="delete"/>
+          <elementSpec ident="postscript" mode="delete"/>
+          <elementSpec ident="salute" mode="delete"/>
+          <elementSpec ident="signed" mode="delete"/>
+          <elementSpec ident="titlePage" mode="delete"/>
+          <elementSpec ident="titlePart" mode="delete"/>
+          <elementSpec ident="trailer" mode="delete"/>
+        <moduleRef n="08" key="spoken"/>
+          <elementSpec ident="annotationBlock" mode="delete"/>
+          <elementSpec ident="scriptStmt" mode="delete"/>
+        <moduleRef n="09" key="dictionaries"/>
+            <elementSpec ident="case" mode="delete"/>
+            <elementSpec ident="colloc" mode="delete"/>
+            <elementSpec ident="def" mode="delete"/>
+            <elementSpec ident="dictScrap" mode="delete"/>
+            <elementSpec ident="entry" mode="delete"/>
+            <elementSpec ident="entryFree" mode="delete"/>
+            <elementSpec ident="etym" mode="delete"/>
+            <elementSpec ident="form" mode="delete"/>
+            <elementSpec ident="gen" mode="delete"/>
+            <elementSpec ident="gram" mode="delete"/>
+            <elementSpec ident="gramGrp" mode="delete"/>
+            <elementSpec ident="hom" mode="delete"/>
+            <elementSpec ident="hyph" mode="delete"/>
+            <elementSpec ident="iType" mode="delete"/>
+            <elementSpec ident="lbl" mode="delete"/>
+            <elementSpec ident="mood" mode="delete"/>
+            <elementSpec ident="number" mode="delete"/>
+            <elementSpec ident="oRef" mode="delete"/>
+            <elementSpec ident="orth" mode="delete"/>
+            <elementSpec ident="pRef" mode="delete"/>
+            <elementSpec ident="pos" mode="delete"/>
+            <elementSpec ident="pron" mode="delete"/>
+            <elementSpec ident="re" mode="delete"/>
+            <elementSpec ident="sense" mode="delete"/>
+            <elementSpec ident="stress" mode="delete"/>
+            <elementSpec ident="subc" mode="delete"/>
+            <elementSpec ident="superEntry" mode="delete"/>
+            <elementSpec ident="syll" mode="delete"/>
+            <elementSpec ident="tns" mode="delete"/>
+            <elementSpec ident="usg" mode="delete"/>
+            <elementSpec ident="xr" mode="delete"/>
+        <moduleRef n="11" key="transcr"/>
+            <elementSpec ident="addSpan" mode="delete"/>
+            <elementSpec ident="am" mode="delete"/>
+            <elementSpec ident="damage" mode="delete"/>
+            <elementSpec ident="damageSpan" mode="delete"/>
+            <elementSpec ident="delSpan" mode="delete"/>
+            <elementSpec ident="ex" mode="delete"/>
+            <elementSpec ident="facsimile" mode="delete"/>
+            <elementSpec ident="fw" mode="delete"/>
+            <elementSpec ident="handNotes" mode="delete"/>
+            <elementSpec ident="handShift" mode="delete"/>
+            <elementSpec ident="line" mode="delete"/>
+            <elementSpec ident="listTranspose" mode="delete"/>
+            <elementSpec ident="metamark" mode="delete"/>
+            <elementSpec ident="mod" mode="delete"/>
+            <elementSpec ident="path" mode="delete"/>
+            <elementSpec ident="redo" mode="delete"/>
+            <elementSpec ident="restore" mode="delete"/>
+            <elementSpec ident="retrace" mode="delete"/>
+            <elementSpec ident="secl" mode="delete"/>
+            <elementSpec ident="sourceDoc" mode="delete"/>
+            <elementSpec ident="space" mode="delete"/>
+            <elementSpec ident="subst" mode="delete"/>
+            <elementSpec ident="substJoin" mode="delete"/>
+            <elementSpec ident="surface" mode="delete"/>
+            <elementSpec ident="surfaceGrp" mode="delete"/>
+            <elementSpec ident="transpose" mode="delete"/>
+            <elementSpec ident="undo" mode="delete"/>
+            <elementSpec ident="zone" mode="delete"/>
+        <moduleRef n="13" key="namesdates"/>
+            <elementSpec ident="affiliation" mode="delete"/>
+            <elementSpec ident="age" mode="delete"/>
+            <elementSpec ident="bloc" mode="delete"/>
+            <elementSpec ident="climate" mode="delete"/>
+            <elementSpec ident="education" mode="delete"/>
+            <elementSpec ident="event" mode="delete"/>
+            <elementSpec ident="faith" mode="delete"/>
+            <elementSpec ident="floruit" mode="delete"/>
+            <elementSpec ident="genName" mode="delete"/>
+            <elementSpec ident="gender" mode="delete"/>
+            <elementSpec ident="geo" mode="delete"/>
+            <elementSpec ident="geogFeat" mode="delete"/>
+            <elementSpec ident="geogName" mode="delete"/>
+            <elementSpec ident="langKnowledge" mode="delete"/>
+            <elementSpec ident="langKnown" mode="delete"/>
+            <elementSpec ident="listEvent" mode="delete"/>
+            <elementSpec ident="listNym" mode="delete"/>
+            <elementSpec ident="listObject" mode="delete"/>
+            <elementSpec ident="listOrg" mode="delete"/>
+            <elementSpec ident="nameLink" mode="delete"/>
+            <elementSpec ident="nym" mode="delete"/>
+            <elementSpec ident="object" mode="delete"/>
+            <elementSpec ident="objectIdentifier" mode="delete"/>
+            <elementSpec ident="objectName" mode="delete"/>
+            <elementSpec ident="occupation" mode="delete"/>
+            <elementSpec ident="offset" mode="delete"/>
+            <elementSpec ident="org" mode="delete"/>
+            <elementSpec ident="persPronouns" mode="delete"/>
+            <elementSpec ident="persona" mode="delete"/>
+            <elementSpec ident="population" mode="delete"/>
+            <elementSpec ident="region" mode="delete"/>
+            <elementSpec ident="residence" mode="delete"/>
+            <elementSpec ident="socecStatus" mode="delete"/>
+            <elementSpec ident="state" mode="delete"/>
+            <elementSpec ident="terrain" mode="delete"/>
+            <elementSpec ident="trait" mode="delete"/>
+        <moduleRef n="15" key="corpus"/>
+        <moduleRef n="16" key="linking"/>
+            <elementSpec ident="alt" mode="delete"/>
+            <elementSpec ident="altGrp" mode="delete"/>
+            <elementSpec ident="annotation" mode="delete"/>
+            <elementSpec ident="link" mode="delete"/>
+            <elementSpec ident="linkGrp" mode="delete"/>
+            <elementSpec ident="listAnnotation" mode="delete"/>
+        <moduleRef n="17" key="analysis"/>
+            <elementSpec ident="cl" mode="delete"/>
+            <elementSpec ident="interpGrp" mode="delete"/>
+            <elementSpec ident="m" mode="delete"/>
+        <moduleRef n="22" key="tagdocs"/>
+            <elementSpec ident="altIdent" mode="delete"/>
+            <elementSpec ident="alternate" mode="delete"/>
+            <elementSpec ident="anyElement" mode="delete"/>
+            <elementSpec ident="attDef" mode="delete"/>
+            <elementSpec ident="attList" mode="delete"/>
+            <elementSpec ident="attRef" mode="delete"/>
+            <elementSpec ident="classRef" mode="delete"/>
+            <elementSpec ident="classSpec" mode="delete"/>
+            <elementSpec ident="classes" mode="delete"/>
+            <elementSpec ident="code" mode="delete"/>
+            <elementSpec ident="constraint" mode="delete"/>
+            <elementSpec ident="constraintSpec" mode="delete"/>
+            <elementSpec ident="content" mode="delete"/>
+            <elementSpec ident="dataFacet" mode="delete"/>
+            <elementSpec ident="dataRef" mode="delete"/>
+            <elementSpec ident="dataSpec" mode="delete"/>
+            <elementSpec ident="datatype" mode="delete"/>
+            <elementSpec ident="defaultVal" mode="delete"/>
+            <elementSpec ident="eg" mode="delete"/>
+            <elementSpec ident="egXML" mode="delete"/>
+            <elementSpec ident="elementRef" mode="delete"/>
+            <elementSpec ident="elementSpec" mode="delete"/>
+            <elementSpec ident="empty" mode="delete"/>            
+            <elementSpec ident="equiv" mode="delete"/>
+            <elementSpec ident="exemplum" mode="delete"/> 
+            <elementSpec ident="ident" mode="delete"/>
+            <elementSpec ident="listRef" mode="delete"/>
+            <elementSpec ident="macroRef" mode="delete"/>
+            <elementSpec ident="macroSpec" mode="delete"/>
+            <elementSpec ident="memberOf" mode="delete"/>
+            <elementSpec ident="model" mode="delete"/>
+            <elementSpec ident="modelGrp" mode="delete"/>
+            <elementSpec ident="modelSequence" mode="delete"/>
+            <elementSpec ident="moduleRef" mode="delete"/>
+            <elementSpec ident="moduleSpec" mode="delete"/> 
+            <elementSpec ident="outputRendition" mode="delete"/>
+            <elementSpec ident="param" mode="delete"/>
+            <elementSpec ident="paramList" mode="delete"/>
+            <elementSpec ident="paramSpec" mode="delete"/>
+            <elementSpec ident="remarks" mode="delete"/>
+            <elementSpec ident="schemaSpec" mode="delete"/>            
+            <elementSpec ident="sequence" mode="delete"/>
+            <elementSpec ident="specDesc" mode="delete"/>
+            <elementSpec ident="specGrp" mode="delete"/>
+            <elementSpec ident="specGrpRef" mode="delete"/>
+            <elementSpec ident="specList" mode="delete"/>
+            <elementSpec ident="textNode" mode="delete"/>
+            <elementSpec ident="valDesc" mode="delete"/>
+            <elementSpec ident="valItem" mode="delete"/>
+            <elementSpec ident="valList" mode="delete"/>
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>
