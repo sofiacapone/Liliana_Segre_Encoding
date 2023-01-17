@@ -136,7 +136,10 @@
                 <datatype>
                   <dataRef key="teidata.pointer"/>
                 </datatype>
-              </attDef>            
+              </attDef>  
+              <attDef ident="xmlns:xi" usage="req">
+                <defaultVal>http://www.w3.org/2001/XInclude</defaultVal>
+              </attDef>          
               <attDef ident="parse" usage="opt">
                 <defaultVal>xml</defaultVal>
                 <valList type="closed">
@@ -187,7 +190,6 @@
           </macroSpec>
           <!-- -->
           <elementSpec ident="argument" mode="delete"/>
-          <elementSpec ident="back" mode="delete"/>
           <elementSpec ident="byline" mode="delete"/>
           <elementSpec ident="closer" mode="delete"/>
           <elementSpec ident="dateline" mode="delete"/>
@@ -281,7 +283,6 @@
             <elementSpec ident="zone" mode="delete"/>
         <moduleRef n="13" key="namesdates"/>
             <elementSpec ident="affiliation" mode="delete"/>
-            <elementSpec ident="age" mode="delete"/>
             <elementSpec ident="bloc" mode="delete"/>
             <elementSpec ident="climate" mode="delete"/>
             <elementSpec ident="education" mode="delete"/>
@@ -290,23 +291,15 @@
             <elementSpec ident="floruit" mode="delete"/>
             <elementSpec ident="genName" mode="delete"/>
             <elementSpec ident="gender" mode="delete"/>
-            <elementSpec ident="geo" mode="delete"/>
             <elementSpec ident="geogFeat" mode="delete"/>
             <elementSpec ident="geogName" mode="delete"/>
             <elementSpec ident="langKnowledge" mode="delete"/>
             <elementSpec ident="langKnown" mode="delete"/>
             <elementSpec ident="listEvent" mode="delete"/>
             <elementSpec ident="listNym" mode="delete"/>
-            <elementSpec ident="listObject" mode="delete"/>
-            <elementSpec ident="listOrg" mode="delete"/>
             <elementSpec ident="nameLink" mode="delete"/>
             <elementSpec ident="nym" mode="delete"/>
-            <elementSpec ident="object" mode="delete"/>
-            <elementSpec ident="objectIdentifier" mode="delete"/>
-            <elementSpec ident="objectName" mode="delete"/>
-            <elementSpec ident="occupation" mode="delete"/>
             <elementSpec ident="offset" mode="delete"/>
-            <elementSpec ident="org" mode="delete"/>
             <elementSpec ident="persPronouns" mode="delete"/>
             <elementSpec ident="persona" mode="delete"/>
             <elementSpec ident="population" mode="delete"/>

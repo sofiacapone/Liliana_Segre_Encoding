@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml_stylesheet type="text/xsl" href="Segre_Stile.xsl"?>
-<!DOCTYPE TEI SYSTEM "tei_all_xiinclude.dtd">
+<!DOCTYPE TEI SYSTEM "tei_vocidallinferno.dtd">
 
 <TEI xml:lang="it">
     <teiHeader>
@@ -55,7 +55,6 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc> <!-- Documenta la relazione tra un testo elettronico e la fonte da cui esso deriva -->
-            <transcriptionDesc ident="HIAT" version="2004"/> <!-- Descrive l'insieme delle convenzioni di trascrizione utilizzate -->
             <projectDesc><!-- Descrive dettagliatamente lo scopo o il fine per cui il file elettronico è stato codificato, assieme ad altre rilevanti informazioni che riguardano il processo con cui è stato assemblato o messo insieme -->
                 <p>La codifica della presente testimonianza è stata realizzata per il progetto "Voci dall'Inferno"</p>
             </projectDesc>
@@ -153,7 +152,7 @@
                 <ab>
                     <list>
                         <item synch="#TR1">
-                            <persName ref="#LS"><forename>Liliana</forename><surname>Segre</surname></persName>, rispondendo alla domanda postale da <persName ref="#AS"><forename>Anna</forename><surname>Segre</surname></persName>, parla di che cosa abbia voluto significare andare incontro a quel terribile destino di morte assieme alle persone più care, a suo padre in particolare, e perché, quindi, è stata la conseguente solitudine che ne è 
+                            <persName ref="#LS"><forename>Liliana</forename><surname>Segre</surname></persName>, rispondendo alla domanda pòstale da <persName ref="#AS"><forename>Anna</forename><surname>Segre</surname></persName>, parla di che cosa abbia voluto significare andare incontro a quel terribile destino di morte assieme alle persone più care, a suo padre in particolare, e perché, quindi, è stata la conseguente solitudine che ne è 
                             derivata ciò che le ha fatto più male, che in assoluto l'ha fatta più soffrire. 
                         </item>
                         <item synch="#TR2">
@@ -175,7 +174,7 @@
                         </item>    
                         <item synch="#TR6">
                            La testimone parla a questo punto del suo ritorno: avrebbe passato quattro mesi in <placeName ref="TEI-ListPlace.xml#Germania">Germania</placeName> prima di fare ritorno a casa sua, a <placeName ref="TEI-ListPlace.xml#Milano">Milano</placeName>, perché da giovane tredicenne qual era non aveva idea di dove si trovasse e di come potesse tornare in <placeName ref="TEI-ListPlace.xml#Italia">Italia</placeName>. Per questo, 
-                           avrebbe deciso di unirsi prima a un gruppo di prigionieri di guerra francesi e successivamente a un altro gruppo di italiani, assieme ai quali sarebbe stata accudita e curata dagli americani. Gli stessi americano avrebbero successivamente provveduto a dislocare tutti gli ex prigionieri in cinque paesi sul corso del fiume <placeName ref="TEI-ListPlace.xml#Elba">Elba</placeName>, e <persName ref="#LS"><forename>Liliana</forename></persName>
+                           avrebbe deciso di unirsi prima a un gruppo di prigionieri di guerra francesi e successivamente a un altro gruppo di italiani, assieme ai quali sarebbe stata accudita e curata dagli americani. Gli stessi americani avrebbero successivamente provveduto a dislocare tutti gli ex prigionieri in cinque paesi sul corso del fiume <placeName ref="TEI-ListPlace.xml#Elba">Elba</placeName>, e <persName ref="#LS"><forename>Liliana</forename></persName>
                            sarebbe finita a <placeName ref="TEI-ListPlace.xml#Obermarschacht" xml:lang="de">Obermarschacht</placeName>.
                         </item>                        
                     </list>
@@ -185,7 +184,7 @@
     </teiHeader>
     <standOff>
         <!--Timeline regesto-->
-        <timeline xml:id="TL1" source="#reg_1A">
+        <timeline xml:id="TL1" source="#reg_1A" unit="s">
             <when xml:id="TR1" absolute="00:00:00"/>
             <when xml:id="TR2" absolute="00:05:20"/>
             <when xml:id="TR3" absolute="00:09.05"/>

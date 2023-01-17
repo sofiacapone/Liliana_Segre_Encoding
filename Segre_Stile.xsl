@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?> <!-- Prologo che definisce la versione XML e la codifica dei caratteri -->
 
-    <xsl:stylesheet version="2.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xipr="http://dret.net/projects/xipr/"> <!-- Elemento radice che dichiara che il documento è un foglio di stile XSL con versione 3. Inoltre, sono stati dichiarati i vari namespace che permettono di accedere agli elementi, agli attributi e alle funzionalità sia di XSL, che di SaxonJS, etc -->
+    <xsl:stylesheet version="2.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xipr="http://dret.net/projects/xipr/"> <!-- Elemento radice che dichiara che il documento è un foglio di stile XSL con versione 2. Inoltre, sono stati dichiarati i vari namespace che permettono di accedere agli elementi, agli attributi e alle funzionalità di XSL, etc -->
 
-    <xsl:output method="text" encoding="UTF-8" omit-xml-declaration="yes" indent="yes"/> <!-- Definizione del formato del documento di output -->
-    
-    
-    <!-- GESTIONE DEGLI SPAZI -->
-    <xsl:strip-space elements="u"/> <!-- In questo modo, ogni utterance viene separata dall'altra da un 'a capo' per una lettura più agevole -->
+    <xsl:output method="text" encoding="UTF-8" omit-xml-declaration="yes" indent="yes"/> <!-- Istruzioni di elaborazione e definizione del formato del documento di output -->
     
     <!-- GESTIONE DELLE PORZIONI DI CODICE PRECEDENTI A <text> -->
-    <xsl:template match="tei:teiHeader"/> <!-- Il <teiHeader> viene omesso semplicemente dichiarando una regola di template vuota -->
+    <xsl:template match="tei:teiHeader"/>
+
     <xsl:template match="tei:standOff"/>  <!-- Lo <standOff> viene omesso semplicemente dichiarando una regola di template vuota -->
 
+    <!-- GESTIONE DI <text> e dei suoi elementi -->
     <xsl:template match="text()">
         <xsl:value-of select="normalize-space()"/>
     </xsl:template>
-
-    <!-- GESTIONE DI <text> e dei suoi elementi -->
+    
     <xsl:template match="//tei:u">
         <xsl:choose> 
             <!-- Gestione degli enunciati sovrapposti -->

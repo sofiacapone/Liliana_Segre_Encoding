@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml_stylesheet type="text/xsl" href="Segre_Stile.xsl"?>
-<!DOCTYPE TEI SYSTEM "tei_all_xiinclude.dtd">
+<!DOCTYPE TEI SYSTEM "tei_vocidallinferno.dtd">
 
 <TEI xml:lang="it">
     <teiHeader>
@@ -291,7 +291,7 @@
     </teiHeader>
     <standOff>
         <!--Timeline regesto-->
-        <timeline xml:id="TL1I" source="reg_1B" n="parteI">
+        <timeline xml:id="TL1I" source="#reg_1B" n="parteI" unit="s">
             <when xml:id="TR1" absolute="00:00:00"/>
             <when xml:id="TR2" absolute="00:08:38"/>
             <when xml:id="TR3" absolute="00:10:52"/>
@@ -303,7 +303,7 @@
             <when xml:id="TR9a" absolute="00:23:41"/>
         </timeline>
 
-        <timeline xml:id="TL1II" source="reg_2A" n="parteII">
+        <timeline xml:id="TL1II" source="#reg_2A" n="parteII" unit="s">
             <when xml:id="TR9b" absolute="00:00:00"/>
             <when xml:id="TR10" absolute="00:01:31"/>
             <when xml:id="TR11" absolute="00:03:05"/>
@@ -318,7 +318,7 @@
             <when xml:id="TR20a" absolute="00:29:29"/>
         </timeline>
 
-        <timeline xml:id="TL1III" source="reg_2B" n="parteIII">
+        <timeline xml:id="TL1III" source="#reg_2B" n="parteIII" unit="s">
             <when xml:id="TR20b" absolute="00:00:00"/>
             <when xml:id="TR21" absolute="00:03:06"/>
             <when xml:id="TR22" absolute="00:05:41"/>
@@ -883,7 +883,7 @@
 
                 <incident><desc>rumori vicini, il registratore viene mosso</desc></incident>
 
-                <u who="#LS" xml:id="LS1" synch="#TS01">Mangiando come mangiavo, <pause type="short"/> <vocal><desc>schiocco con la bocca</desc></vocal> sono ingrassata <measure type="weight"><num>10</num>kg</measure> al mese, quando sono tornata ero <num>70</num>... e più <pause type="short"/></u> 
+                <u who="#LS" xml:id="LS1" synch="#TS01">Mangiando come mangiavo, <pause type="short"/> <vocal><desc>schiocco con la bocca</desc></vocal> sono ingrassata <measure type="weight"><num>10</num><unit>kg</unit></measure> al mese, quando sono tornata ero <measure><num>70</num><supplied resp="#SC"><unit>kg</unit></supplied></measure>... e più <pause type="short"/></u> 
                 
                 <u who="#AS" xml:id="AS1" synch="#TS02"><unclear cert="high">Quindi sì</unclear></u>
                 
@@ -933,7 +933,7 @@
                 <shift feature="loud" new="dimin"/>col camion, <pause type="short"/> qui alla stazione nord, <pause type="medium"/> che era bombardata, <pause type="medium"/> quindi... <pause type="short"/> io mi ricordavo che abitavo lì vicino, <pause type="medium"/> son scesa lì e io e 
                 <persName ref="TEI-ListPerson.xml#GC"><forename>Graziella</forename></persName> eravamo così <pause type="medium"/> orrende, <pause type="medium"/> come tutto, <pause type="medium"/> <shift feature="loud" new="f"/>anche se non magre - <shift feature="loud" new="dimin"/>perché anche lei <del type="falseStart">non,</del> aveva mangiato 
                 tanto, non era magra - <pause type="medium"/> che un signore, <pause type="short"/> passando, ci ha dato l'elemosina. <pause type="medium"/> <gap reason="inaudible"/> ha chiesto niente <vocal who="#AS"><desc>ride appena e sommessamente</desc></vocal> <vocal><desc>sospira</desc></vocal> e ci ha dato anche, mi ricordo, due barattoli di
-                marmellata, qualche cosa <pause type="short"/> che noi abbiamo preso, <pause type="short"/> perché <pause type="short"/> ci hanno dato <measure type="currency"><num>2</num> lire</measure>, di allora, <pause type="short"/> era un patrimonio, <shift feature="loud" new="pp"/>tra averle e non averle era importantissimo. <pause type="medium"/>
+                marmellata, qualche cosa <pause type="short"/> che noi abbiamo preso, <pause type="short"/> perché <pause type="short"/> ci hanno dato <measure type="currency"><num>2</num> <unit>lire</unit></measure>, di allora, <pause type="short"/> era un patrimonio, <shift feature="loud" new="pp"/>tra averle e non averle era importantissimo. <pause type="medium"/>
                 <vocal><desc>lieve schiocco con la bocca</desc></vocal> <shift feature="loud" new="f"/>Da lì io sono andata, <shift feature="loud" new="dimin"/>ricordandomi dove abitavo, che era poco lontano, <pause type="medium"/> naturalmente non c'era nessuno, <shift feature="loud" new="f"/>ma era
                 andato mio <rs ref="TEI-ListPerson.xml#AmS" type="person">zio</rs> <shift feature="loud" new="dimin"/>a cercare in tutti, <unclear cert="medium" resp="#SC">mio <rs ref="TEI-ListPerson.xml#AmS" type="person">zio</rs></unclear>, il <rs ref="TEI-ListPerson.xml#AmS" type="person">fratello</rs> di mio <rs ref="TEI-ListPerson.xml#AlS" type="person">papà</rs>, <pause type="short"/> che si era salvato in montagna, <pause type="medium"/> <shift feature="loud" new="f"/>era andato pochi giorni prima... <unclear cert="low" resp="#SC">sa-</unclear><shift feature="loud" new="dimin"/>chiedere se per
                 caso qualcuno della famiglia era tornato. <pause type="short"/> <shift feature="loud" new="f"/> Allora, mentre i vicini, molto cari, <shift feature="loud" new="dimin"/>mi facevano fare il bagno, mi davano i vestiti <del type="falseStart">della-,</del> delle <rs type="person">figlie</rs>, <vocal><desc>inspira</desc></vocal> <pause type="short"/> <shift feature="loud" new="f"/>sono
@@ -1004,7 +1004,7 @@
                 <unclear cert="high" resp="#SC">un disastro</unclear>, <pause type="medium"/> <unclear cert="medium" resp="#SC">che avveniva</unclear> quando <pause type="short"/> si deportano e si uccidono persone vecchie e malate. Io oggi, che sono vecchia ma non son malata, <vocal><desc>inspira</desc></vocal> ma quando penso <pause type="short"/> che uno venisse qui e mi
                 facesse salire di corsa su un camion e poi altrettanto di corsa mentre <anchor xml:id="lilseg-09" synch="#TT07" n="7"/> <gap reason="inaudible"/> <anchor xml:id="lilseg-10" synch="#TT08" n="8"/></u>
 
-                <u who="#AS"><anchor xml:id="annseg-07" synch="#TT07" n="7"/> Ti fa <choice><orig>fa'</orig><reg>fare</reg></choice> <anchor xml:id="annseg-08" synch="#TT08" n="8"/> <measure type="length"><num>5000</num>km</measure> per ammazzarti lì</u>
+                <u who="#AS"><anchor xml:id="annseg-07" synch="#TT07" n="7"/> Ti fa <choice><orig>fa'</orig><reg>fare</reg></choice> <anchor xml:id="annseg-08" synch="#TT08" n="8"/> <measure type="length"><num>5000</num><unit>km</unit></measure> per ammazzarti lì</u>
 
                 <u who="#LS" xml:id="LS13" synch="#TS24">Sì</u>
 
@@ -1328,8 +1328,8 @@
                 <u who="#AS" xml:id="AS48" synch="#TS98">Cioè, una carica umana...</u>
                 
                 <u who="#LS" xml:id="LS51" synch="#TS99">Sì, <anchor xml:id="lilseg-79" synch="#TT61" n="61"/> ma io non <unclear cert="medium" resp="#SC">solo</unclear>, l'ho <anchor xml:id="lilseg-80" synch="#TT62" n="62"/> sentita materna proprio tantissimo, <incident><desc>rumori in sottofondo</desc></incident> <vocal><desc>inspira</desc></vocal> mi ha detto: <shift feature="tension" new="lax"/><quote>"Ma tu vai, ma tu, tu devi andare, tu devi, guarda che ci sono un sacco <vocal><desc>inspira</desc></vocal> di scuole che chiedono, ragazzi che non sanno niente"</quote> <gap reason="inaudible"/> <shift feature="tension" new="tense"/><quote>"No, ma io non ce la faccio, non posso, non l'ho mai fatto <vocal><desc>inspira</desc></vocal> e poi saprò parlare in
-                pubblico? Mi uscirà la voce? Mi metterò a piangere? A urlare?"</quote> <vocal><desc>inspira</desc></vocal> <shift feature="tension" new="lax"/><quote>"Ma prova, ma prova, prova"</quote>, m'ha portato una volta <vocal><desc>inspira</desc></vocal> <vocal><desc>schiocco con la bocca</desc></vocal> in una famiglia di suoi amici che facevano <vocal><desc>inspira</desc></vocal> <vocal><desc>ehh</desc></vocal> quelle robe <del type="falseStart">sce-,</del> che io detesto personalmente, <vocal><desc>inspira</desc></vocal> <vocal><desc>schiocco con la bocca</desc></vocal> quei gruppi di lettura, sai che... prendono... <pause type="short"/> <title ref="#Gattopardo">Il Gattopardo</title>,
-                <vocal who="#AS"><desc>Ah, ah</desc></vocal> toh, per dirti, <vocal who="#AS"><desc>Ah</desc></vocal> lo leggono in dieci e poi lo commentano - io se leggo <title ref="#Gattopardo">Il Gattopardo</title> non ho nessuna voglia di sentire quegli altri <vocal who="#AS"><desc>ride</desc></vocal> nove <shift feature="voice" new="giggle"/>cos'hanno <vocal who="#AS"><desc>ride</desc></vocal> da dire <shift feature="voice" new="laugh"/>sul <title ref="#Gattopardo">Gattopardo</title> <vocal><desc>ride</desc></vocal></u>
+                pubblico? Mi uscirà la voce? Mi metterò a piangere? A urlare?"</quote> <vocal><desc>inspira</desc></vocal> <shift feature="tension" new="lax"/><quote>"Ma prova, ma prova, prova"</quote>, m'ha portato una volta <vocal><desc>inspira</desc></vocal> <vocal><desc>schiocco con la bocca</desc></vocal> in una famiglia di suoi amici che facevano <vocal><desc>inspira</desc></vocal> <vocal><desc>ehh</desc></vocal> quelle robe <del type="falseStart">sce-,</del> che io detesto personalmente, <vocal><desc>inspira</desc></vocal> <vocal><desc>schiocco con la bocca</desc></vocal> quei gruppi di lettura, sai che... prendono... <pause type="short"/> <title ref="TEI-ListBibl.xml#Gattopardo">Il Gattopardo</title>,
+                <vocal who="#AS"><desc>Ah, ah</desc></vocal> toh, per dirti, <vocal who="#AS"><desc>Ah</desc></vocal> lo leggono in dieci e poi lo commentano - io se leggo <title ref="TEI-ListBibl.xml#Gattopardo">Il Gattopardo</title> non ho nessuna voglia di sentire quegli altri <vocal who="#AS"><desc>ride</desc></vocal> nove <shift feature="voice" new="giggle"/>cos'hanno <vocal who="#AS"><desc>ride</desc></vocal> da dire <shift feature="voice" new="laugh"/>sul <title ref="TEI-ListBibl.xml#Gattopardo">Gattopardo</title> <vocal><desc>ride</desc></vocal></u>
                 
                 <u who="#AS"><anchor xml:id="annseg-61" synch="#TT61" n="61"/> Proprio, in assoluto <anchor xml:id="annseg-62" synch="#TT62" n="62"/></u>
               
