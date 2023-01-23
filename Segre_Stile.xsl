@@ -72,7 +72,7 @@
 
     <!-- Gestione delle parole enfatizzate -->
     <xsl:template match="//tei:emph">
-        <xsl:text> </xsl:text><xsl:apply-templates/><xsl:text> </xsl:text>
+        <xsl:text>#</xsl:text><xsl:apply-templates/><xsl:text>#</xsl:text>
 	</xsl:template>
 
     <!-- Gestione delle pause -->
@@ -277,14 +277,7 @@
 						<xsl:choose>
 							<xsl:when test="empty(@xpointer)"><!-- Se non c'è un attributo @xpointer viene eseguito il seguente codice -->
 								<xsl:for-each select="$include-doc/node()"><!-- Per ciascun nodo del documento rappresentato dalla variabile $include-doc viene eseguito il seguente codice -->
-									<xsl:choose>
-										<xsl:when test="self::*">
-                                            <xsl:apply-templates select="."/> <!-- SECONDA MODIFICA: a tutti gli elementi, attraverso apply-templates, vengono applicate le modifiche specificate all'interno di questo stesso documento XSL, e non vengono dunque semplicemente copiati, come accadeva prima attraverso l'istruzione copy-of -->
-										</xsl:when>
-										<xsl:otherwise>
-                                            <xsl:apply-templates select="."/> <!-- TERZA MODIFICA: anche a tutti gli altri nodi, attraverso apply-templates, vengono applicate le modifiche specificate all'interno di questo stesso documento, e non vengono semplicemente copiati, come accadeva prima attraverso l'istruzione copy -->
-										</xsl:otherwise>
-									</xsl:choose>
+									<xsl:apply-templates/>
 								</xsl:for-each>
 							</xsl:when>
 							<xsl:otherwise><!-- Se c'è un attributo @xpointer viene eseguito il seguente codice -->
