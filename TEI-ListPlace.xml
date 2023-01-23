@@ -80,6 +80,7 @@
                         <placeName>Auschwitz</placeName>
                         <location>
                             <country>Polonia</country>
+                            <geo>50.602671, 19.245927</geo>
                         </location>
                     </place>
 
@@ -87,6 +88,7 @@
                         <placeName>Birkenau</placeName>
                         <location>
                             <country>Polonia</country>
+                            <geo>50.672841, 19.199021</geo>
                         </location>
                     </place>
 
@@ -94,6 +96,7 @@
                         <placeName>Bergamo</placeName>
                         <location>
                             <country>Italia</country>
+                            <geo>45.698092, 9.674470</geo>
                         </location>
                     </place>
 
@@ -101,6 +104,7 @@
                         <placeName>Bologna</placeName>
                         <location>
                             <country>Italia</country>
+                            <geo>44.506687, 11.333056</geo>
                         </location>
                     </place>
 
@@ -108,6 +112,7 @@
                         <placeName>Bolzano</placeName>
                         <location>
                             <country>Italia</country>
+                            <geo>46.491004, 11.336685</geo>
                         </location>
                     </place>
 
@@ -115,6 +120,7 @@
                         <placeName>Celle Ligure</placeName>
                         <location>
                             <country>Italia</country>
+                            <geo>44.348777, 8.541758</geo>
                         </location>
                     </place>
 
@@ -122,6 +128,7 @@
                         <placeName>Luneburg</placeName>
                         <location>
                             <country>Germania</country>
+                            <geo>53.239158, 10.412282</geo>
                         </location>
                     </place> 
 
@@ -129,6 +136,7 @@
                         <placeName>Milano</placeName>
                         <location>
                             <country>Italia</country>
+                            <geo>45.469935, 9.179446</geo>
                         </location>
                     </place>
 
@@ -136,6 +144,7 @@
                         <placeName>Monteverde</placeName>
                         <location>
                             <country>Italia</country>
+                            <geo>41.878948, 12.437186</geo>
                         </location>
                     </place>
 
@@ -143,6 +152,7 @@
                         <placeName>Obermarschacht</placeName>
                         <location>
                             <country>Germania</country>
+                            <!-- Non sono state trovate le coordinate geografiche di questo luogo -->
                         </location>
                     </place>
 
@@ -150,6 +160,7 @@
                         <placeName>Pescantina</placeName>
                         <location>
                             <country>Italia</country>
+                            <geo>45.483034, 10.868618</geo>
                         </location>
                     </place>
 
@@ -157,6 +168,7 @@
                         <placeName>Pisa</placeName>
                         <location>
                             <country>Italia</country>
+                            <geo>43.726596, 10.398295</geo>
                         </location>
                     </place>
 
@@ -164,6 +176,7 @@
                         <placeName>Ravensbruck</placeName>
                         <location>
                             <country>Germania</country>
+                            <geo>53.191280, 13.163472</geo>
                         </location>
                     </place>
 
@@ -171,6 +184,7 @@
                         <placeName>Roma</placeName>
                         <location>
                             <country>Italia</country>
+                            <geo>41.891775, 12.486137</geo>
                         </location>
                     </place>  
 
@@ -178,6 +192,7 @@
                         <placeName>Verona</placeName>
                         <location>
                             <country>Italia</country>
+                            <geo>45.428397, 10.984975</geo>
                         </location>
                     </place>
 
@@ -185,6 +200,7 @@
                         <placeName>Venezia</placeName>
                         <location>
                             <country>Italia</country>
+                            <geo>45.412877, 12.291164</geo>
                         </location>
                     </place>
 
